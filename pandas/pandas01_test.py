@@ -25,7 +25,7 @@ print(df.loc[df.수학 >= 80].loc[df.국어 >=80])
 
 print("=========================================")
 
-df['평균'] = df.sum(axis=1)/3
+df['평균'] = df.sum(axis=1)/len(df.columns)
 
 print(df)
 
