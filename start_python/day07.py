@@ -1,4 +1,4 @@
-from defTest import *
+from start_python.defTest import *
 #import math
 import math as mt
 
